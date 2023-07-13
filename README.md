@@ -9,6 +9,6 @@
 4. 토픽 모델링 결과 시각화: pyLDAvis와 같은 시각화 도구를 사용하여, 토픽 모델링 결과를 시각화합니다. 이를 통해 각 토픽의 단어들의 빈도수와 토픽 간 상관관계를 파악할 수 있습니다.
 5. 인사이트 도출: 시각화 결과를 바탕으로, 앱 사용자들의 필요와 선호를 파악하고, 앱의 개선점을 도출합니다. 이를 통해 앱 개발자나 마케팅 담당자는 앱의 개선 방향성을 찾을 수 있습니다.
 
-[`NLP-final.ipynb`](https://github.com/sungbinlee/NLP-Healthcare-App-Reviews/blob/main/NLP-final.ipynb) 에서 자세한 코드와 데이터를 확인할 수 있습니다.
+프로젝트와 관련된 전체 코드 및 데이터는 [`NLP-final.ipynb`](https://github.com/sungbinlee/NLP-Healthcare-App-Reviews/blob/main/NLP-final.ipynb) 파일을 참조 하십시오.
 
 본 레포지토리에서는 학습에 사용된 데이터셋, 불용어 목록, 치환단어 목록 및 토픽 모델링 시각화 결과를 확인할 수 있습니다.
