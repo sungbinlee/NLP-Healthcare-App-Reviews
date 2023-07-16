@@ -1,14 +1,14 @@
 # Mobile Apps Reviews Analysis using LDA Topic Modeling
-이 프로젝트에서는 LDA Topic Modeling을 사용하여 모바일 앱 영문 리뷰를 분석하였습니다. 모바일 앱 리뷰 데이터를 수집하고 전처리한 후, LDA Topic Modeling 모델을 구축하여 토픽 수를 결정하고, 토픽 모델링 결과를 시각화를 통해 앱 사용자들의 필요와 선호를 파악하고, 앱의 개선점을 도출 하였습니다.
+In this project, I analyzed English mobile app reviews using LDA topic modeling. I collected and preprocessed mobile app review data, built an LDA topic modeling model, determined the number of topics, and derived insights into user needs, preferences, and areas for improvement through visualization of the topic modeling results.
 
-## 프로젝트의 과정은 다음과 같습니다:
+## The process of the project was as follows:
 
-1. 모바일 앱 리뷰 데이터 수집: 프로젝트에서 사용할 모바일 앱 리뷰 데이터를 수집하였습니다. 
-2. 데이터 전처리: 수집한 리뷰 데이터를 전처리합니다. 이 단계에서는 리뷰의 특수 문자, 숫자, 불용어 등을 제거하고, 단어들을 토큰화하여 분석에 적합한 형태로 만듭니다.
-3. LDA Topic Modeling 모델 구축 및 토픽 수 결정: 전처리한 데이터를 이용하여 LDA 모델을 구축합니다. 이 모델을 사용하여 각 리뷰가 어떤 토픽에 속하는지 분류하고, 토픽의 수를 결정합니다.
-4. 토픽 모델링 결과 시각화: pyLDAvis와 같은 시각화 도구를 사용하여, 토픽 모델링 결과를 시각화합니다. 이를 통해 각 토픽의 단어들의 빈도수와 토픽 간 상관관계를 파악할 수 있습니다.
-5. 인사이트 도출: 시각화 결과를 바탕으로, 앱 사용자들의 필요와 선호를 파악하고, 앱의 개선점을 도출합니다. 이를 통해 앱 개발자나 마케팅 담당자는 앱의 개선 방향성을 찾을 수 있습니다.
+1. Collection of Mobile App Review Data: I collected mobile app review data for analysis in the project.
+2. Data Preprocessing: I preprocessed the collected review data. In this step, I removed special characters, numbers, and stopwords from the reviews and tokenized the words to prepare them in a suitable format for analysis.
+3. Construction of LDA Topic Modeling Model and Determination of Topic Number: I built an LDA model using preprocessed data. This model was used to classify each review into a specific topic and determine the number of topics.
+4. Visualization of Topic Modeling Results: I used visualization tools such as pyLDAvis to visualize the results of topic modeling. This allowed me to understand the frequency of words in each topic and the correlations between topics.
+5. Deriving Insights: Based on the visualization results, I identified user needs, preferences, and areas for improvement. This information can help app developers or marketing professionals in determining the direction for app enhancements.
 
-프로젝트와 관련된 전체 코드 및 데이터는 [`NLP-final.ipynb`](https://github.com/sungbinlee/NLP-Healthcare-App-Reviews/blob/main/NLP-final.ipynb) 파일을 참조 하십시오.
+For the complete code and data related to the project, please refer to the  [`NLP-final.ipynb`](https://github.com/sungbinlee/NLP-Healthcare-App-Reviews/blob/main/NLP-final.ipynb) file.
 
-본 레포지토리에서는 학습에 사용된 데이터셋, 불용어 목록, 치환단어 목록 및 토픽 모델링 시각화 결과를 확인할 수 있습니다.
+The repository provides the dataset used for training, the list of stopwords, the list of replacement words, and the visualization results of the topic modeling.
